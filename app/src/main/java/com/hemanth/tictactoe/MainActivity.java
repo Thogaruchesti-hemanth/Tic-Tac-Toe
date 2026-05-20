@@ -1,4 +1,4 @@
-package com.example.tictactoe;
+package com.hemanth.tictactoe;
 
 import static androidx.appcompat.app.AppCompatDelegate.MODE_NIGHT_NO;
 import static androidx.appcompat.app.AppCompatDelegate.setDefaultNightMode;

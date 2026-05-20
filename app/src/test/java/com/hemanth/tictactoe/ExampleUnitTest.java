@@ -1,4 +1,4 @@
-package com.example.tictactoe;
+package com.hemanth.tictactoe;
 
 import org.junit.Test;
 

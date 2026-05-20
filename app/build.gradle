@@ -3,22 +3,23 @@ plugins {
 }
 
 android {
-    namespace 'com.example.tictactoe'
+    namespace 'com.hemanth.tictactoe'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.example.tictactoe"
+        applicationId "com.hemanth.tictactoe"
         minSdk 24
         targetSdk 33
         versionCode 1
-        versionName "1.0"
+        versionName "1.0.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
     buildTypes {
         release {
-            minifyEnabled false
+            minifyEnabled true
+            shrinkResources true
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
